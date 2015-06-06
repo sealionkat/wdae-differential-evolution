@@ -2,7 +2,7 @@
 # 2015
 
 
-source("vars.R");
+source("globals.R");
 source("point.R");
 source("init_population.R");
 source("selection_rand.R");
@@ -15,4 +15,23 @@ source("de.R");
 
 library(cec2013);
 
+# main <- function() {
+#   # benchmark_fun <- function(coords) { return cec2013(num, coords); }
+#   
+#   bf <- function(coords) { 
+#     return (cec2013(1, coords));
+#   }
+#   
+#   results <- de("rand", "bin", bf);
+#   
+#   results
+# }
+# 
+# main();
+
+bf <- function(coords) { 
+  return (cec2013(1, coords));
+}
+
+results <- de("rand", "bin", bf);
 

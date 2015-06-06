@@ -1,7 +1,7 @@
-init_population <- function(count) {
+init_population <- function() {
   population <- list();
   
-  for(i in 1:count) {
+  for(i in 1:NP) {
     population[[i]] <- point();
   }
   
