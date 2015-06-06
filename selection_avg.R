@@ -7,5 +7,5 @@ selection_avg <- function(Pg) {
   }
   
   avg <- avg / len;
-  return(point(coords = avg));
+  return(list(point(coords = avg)));
 }

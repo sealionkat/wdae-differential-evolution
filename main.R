@@ -33,5 +33,5 @@ bf <- function(coords) {
   return (cec2013(1, coords));
 }
 
-results <- de("rand", "bin", bf);
+results <- de("avg", "bin", bf);
 
