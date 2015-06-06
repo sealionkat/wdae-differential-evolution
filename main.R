@@ -7,6 +7,7 @@ source("point.R");
 source("init_population.R");
 source("selection_rand.R");
 source("selection_avg.R");
+source("pickup.R");
 source("crossover_bin.R");
 source("crossover_exp.R");
 source("tournament.R");

@@ -1,8 +1,3 @@
-source("vars.R")
-
-point <- function() 
-{
-  return(list(coordinates=runif(dim, minRange, maxRange), quality=0));
+point <- function(coords = runif(dim, minRange, maxRange)) {
+  return(list(coordinates=coords, quality=0));
 }
-
-point()

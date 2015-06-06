@@ -3,9 +3,9 @@ selection_avg <- function(Pg) {
   avg <- rep(c(0), dim);
   
   for(i in 1:len) {
-    avg <- avg + Pg[[i]];
+    avg <- avg + Pg[[i]]$coordinates;
   }
   
   avg <- avg / len;
-  return(); #point
+  return(point(coords = avg));
 }
