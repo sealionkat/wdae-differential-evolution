@@ -1,4 +1,4 @@
-NP <- 10; # population count
+NP <- 100; # population count
 CR <- 0.1; # crossover factor 0.1
 FC <- 0.5; # selection factor 0.5
 maxIterations <- 100;
